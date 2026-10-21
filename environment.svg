@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
+<title id="title">A greener planet</title><desc id="desc">An illustrated Earth with green leaves, clouds, a wind turbine, and a small sprout.</desc>
+<defs>
+ <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ed8e4"/><stop offset="1" stop-color="#3aa8bd"/></linearGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8fcf78"/><stop offset="1" stop-color="#248957"/></linearGradient>
+</defs>
+<circle cx="350" cy="258" r="168" fill="#d8f0df"/>
+<circle cx="350" cy="250" r="145" fill="url(#ocean)"/>
+<path d="M267 142l44 12 17 31-20 22-3 37-39 15-24-32-35-11 14-43z" fill="#4caa70"/>
+<path d="M365 120l49 18 25 33-12 28-32 5-17 35-27-10-8-38-24-19 12-30z" fill="#4caa70"/>
+<path d="M360 262l38-18 35 18 15 37-28 28-10 42-31 14-21-36-25-13 7-39z" fill="#4caa70"/>
+<path d="M240 292l34 8 20 30-16 27-30-12-22-28z" fill="#4caa70"/>
+<g fill="#fff" opacity=".92">
+ <path d="M115 123c2-23 31-33 48-17 14-28 58-21 61 12 24 2 33 32 12 45H130c-22-5-29-28-15-40z"/>
+ <path d="M475 95c3-17 24-25 37-12 11-21 43-16 46 9 18 2 25 24 9 34h-78c-17-4-22-21-14-31z"/>
+</g>
+<!-- Wind turbine -->
+<path d="M548 355l-10-151" stroke="#537e68" stroke-width="7" stroke-linecap="round"/>
+<circle cx="538" cy="202" r="8" fill="#537e68"/>
+<path d="M538 202l-8-74q1-9 9-3l9 73M538 202l66 31q8 5 0 9l-66-26M538 202l-54 48q-8 5-8-4l55-50" fill="#fff" stroke="#537e68" stroke-width="4" stroke-linejoin="round"/>
+<!-- Decorative leaves -->
+<path d="M116 375c-45-54-22-100 31-112 13 45-1 83-31 112z" fill="url(#leaf)"/>
+<path d="M116 375l15-77" stroke="#e4f5d8" stroke-width="4" fill="none"/>
+<path d="M570 405c-6-58 31-88 77-73-1 43-30 70-77 73z" fill="url(#leaf)"/>
+<path d="M570 405l48-53" stroke="#e4f5d8" stroke-width="4" fill="none"/>
+<path d="M178 424c31-50 71-42 85-5-27 28-58 30-85 5z" fill="#8fcf78"/>
+<path d="M178 424l63-14" stroke="#e4f5d8" stroke-width="4" fill="none"/>
+<!-- Ground and sprout -->
+<ellipse cx="350" cy="441" rx="190" ry="18" fill="#b5dfbf" opacity=".6"/>
+<path d="M350 430v-54" stroke="#287c4e" stroke-width="8" stroke-linecap="round"/>
+<path d="M350 400c-47 2-66-22-57-51 34-1 56 17 57 51z" fill="#58ad6d"/>
+<path d="M350 386c7-39 34-51 61-34-9 28-30 42-61 34z" fill="#248957"/>
+<g fill="#e6b85c"><circle cx="155" cy="210" r="7"/><circle cx="520" cy="290" r="6"/><circle cx="454" cy="95" r="5"/></g>
+</svg>
